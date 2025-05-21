@@ -35,7 +35,7 @@ body {
   #card-1 {
     background-color: hsl(263, 55%, 52%);
     color: white;
-    grid-column: 2 2 2;
+    grid-column: span 2;
   }
   #card-2 {
     background-color: hsl(217, 19%, 35%);
@@ -96,3 +96,4 @@ body {
 p {
   color: hsl(0, 0%, 81%);
 }
+
