@@ -15,11 +15,13 @@ body {
   align-items: center;
   justify-content: center;
   gap: 2em;
+  min-height: 100vh;
   div {
     border-radius: 0.5rem;
   }
   p {
     font-size: 13px;
+    color: white;
   }
 }
 
@@ -45,6 +47,9 @@ body {
     background-color: hsl(0, 0%, 100%);
     color: black;
     grid-column: span 1;
+    p {
+      color: black;
+    }
   }
   #card-4 {
     background-color: hsl(219, 29%, 14%);
@@ -86,13 +91,9 @@ body {
   }
   p {
     font-size: 10px;
-    color: hsl(224, 10%, 45%);
   }
   span {
     line-height: 1rem;
   }
-}
-p {
-  color: hsl(0, 0%, 81%);
 }
 
